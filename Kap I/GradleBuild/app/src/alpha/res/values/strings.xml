@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GradleBuild Alpha</string>
+    <string name="hello_world">Hello World from alpha</string>
+</resources>
