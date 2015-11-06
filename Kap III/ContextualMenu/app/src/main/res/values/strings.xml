@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ContextualMenu</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="countries">
+        <item name="de">Germany</item>
+        <item name="fr">France</item>
+        <item name="ch">Switzerland</item>
+        <item name="it">Italy</item>
+        <item name="en">England</item>
+        <item name="es">Spain</item>
+    </array>
+</resources>
