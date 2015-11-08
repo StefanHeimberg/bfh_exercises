@@ -45,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
 			@Override public void onClick(View v) {
 				String name = editText.getText().toString();
 				startConnection(name);
+//				HttpGetTask getTask = new HttpGetTask(new HttpGetTask.IAsyncResponseListener() {
+//					@Override public void onResult(String string) {
+//						if (string == null) {
+//							textView.setText("No response received");
+//						}
+//						else {
+//							textView.setText(string);
+//						}
+//					}
+//				});
 			}
 		});
 
