@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_game"
+        android:orderInCategory="100"
+        android:title="New Game"
+        android:icon="@drawable/ic_library_add_white_24dp"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_tetris"
+                android:orderInCategory="101"
+                android:title="Tetris"
+                android:icon="@drawable/ic_dashboard_black_24dp"
+                app:showAsAction="ifRoom|withText"/>
+            <item
+                android:id="@+id/action_blackjack"
+                android:orderInCategory="102"
+                android:title="Blackjack"
+                android:icon="@drawable/ic_class_black_24dp"
+                app:showAsAction="ifRoom|withText"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="200"
+        android:title="Help"
+        android:icon="@drawable/ic_help_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
